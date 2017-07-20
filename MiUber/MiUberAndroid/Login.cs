@@ -27,6 +27,7 @@ namespace MiUberAndroid
                 var intent = new Android.Content.Intent(this, typeof(ForgotPassword));
                   StartActivity(intent);
             };
+            // cambiar de actividad al dar clic sobre el boton.
             txtSignIn.Click += (sender, evt) =>
             {
                 var intent = new Android.Content.Intent(this, typeof(ValidateNumberPhone));
