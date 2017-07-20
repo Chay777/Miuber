@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Login Activity-->
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Mi Uber Pasajero</string>
+    <string name="Email">Correo electronico</string>
+    <string name="Password">Contraseña</string>
+    <string name="PasswordForgot">
+      <u>¿Olvidaste tu contraseña?</u></string>
+    <string name="LogIn">Entrar</string>
+    <string name="SignIn">
+      <u>¡Regístrate para viajar!</u>
+    </string>
+  
+ <!--Forgot Password-->
+  <string name="Send">Enviar</string>
+  <string name="Instructions">¡Recibirás en tu correo \n las instrucciones para recuperar tu conraseña!</string>
+  <string name="EmailPlaceHolder">Ingresa tu correo electrónico</string>
+  <!--Sign In-->
+
+  <string name="UserNumberPhone">Tu registro es con el teléfono:</string>
+  <string name="PutName">Ingresa tu nombre</string>
+  <string name="PutLastName">Ingresa tus apellidos</string>
+  <string name="putBirthDay">Ingresa tu fecha de nacimiento</string>
+  <string name="putEmail">Ingresa tu correo electrónico</string>
+  <string name="PutPassword">Ingresa tu contraseña</string>
+  <string name="PutConfirmPassword">Confirma tu contraseña</string>
+  <string name="BtnSignIn">Registrarse</string>
+
+  <!--Validate number Phone-->
+
+  <string name="PutNumberPhone">Ingresa tu número de teléfono</string>
+  <string name="SendValidationCode">Enviar código de validación</string>
+  <string name="ValidationCode">Código de validación</string>
+  <string name="Next">Siguiente</string>
+</resources>
