@@ -4,17 +4,21 @@ using System.Linq;
 using System.Text;
 
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Support.V7.App;
 
+	
+using AlertDialog = Android.Support.V7.App.AlertDialog;
 namespace MiUberAndroid
 {
 
-    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon")]
-    public class Login : Activity
+    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.DarkActionBar")]
+
+
+
+    public class Login : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -22,6 +26,21 @@ namespace MiUberAndroid
             SetContentView(Resource.Layout.Login);
             var txtForgotPassword = FindViewById<TextView>(Resource.Id.txtPasswordForgot);
             var txtSignIn = FindViewById<TextView>(Resource.Id.txtSignIn);
+
+            
+
+
+
+        var builder = new AlertDialog.Builder(this);
+
+            builder.SetTitle("Hello Dialog")
+                   .SetMessage("Is this material design?")
+                   .SetPositiveButton("Yes", delegate { Console.WriteLine("Yes"); })
+                   .SetNegativeButton("No", delegate { Console.WriteLine("No"); });
+
+            builder.Create().Show();
+
+
             txtForgotPassword.Click += (sender, evt) =>
             {
                 var intent = new Android.Content.Intent(this, typeof(ForgotPassword));
