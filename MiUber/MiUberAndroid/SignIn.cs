@@ -9,11 +9,12 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Support.V7.App;
 
 namespace MiUberAndroid
 {
-    [Activity(Label = "@string/ApplicationName",Icon = "@drawable/icon")]
-    public class SignIn : Activity
+    [Activity(Label = "@string/ApplicationName",Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat")]
+    public class SignIn : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

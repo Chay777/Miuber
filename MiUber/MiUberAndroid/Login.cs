@@ -14,7 +14,7 @@ using AlertDialog = Android.Support.V7.App.AlertDialog;
 namespace MiUberAndroid
 {
 
-    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.DarkActionBar")]
+    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat")]
 
 
 
@@ -27,19 +27,7 @@ namespace MiUberAndroid
             var txtForgotPassword = FindViewById<TextView>(Resource.Id.txtPasswordForgot);
             var txtSignIn = FindViewById<TextView>(Resource.Id.txtSignIn);
 
-            
-
-
-
-        var builder = new AlertDialog.Builder(this);
-
-            builder.SetTitle("Hello Dialog")
-                   .SetMessage("Is this material design?")
-                   .SetPositiveButton("Yes", delegate { Console.WriteLine("Yes"); })
-                   .SetNegativeButton("No", delegate { Console.WriteLine("No"); });
-
-            builder.Create().Show();
-
+           
 
             txtForgotPassword.Click += (sender, evt) =>
             {

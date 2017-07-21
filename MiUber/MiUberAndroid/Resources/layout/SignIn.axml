@@ -3,15 +3,18 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+   
+
     <TextView
-        android:text="@string/UserNumberPhone"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtThisPhone"
-        android:gravity="center_horizontal"
-        android:layout_marginBottom="9.5dp"
-        android:layout_marginTop="20.0dp" />
+          android:text="@string/UserNumberPhone"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtThisPhone"
+          android:gravity="center_horizontal"
+          android:layout_marginBottom="9.5dp"
+          android:layout_marginTop="20.0dp" />
     <TextView
         android:text="4611234567"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -21,54 +24,78 @@
         android:gravity="center_horizontal"
         android:textSize="9pt"
         android:layout_marginBottom="10.0dp" />
-    <EditText
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtName"
-        android:layout_marginRight="20.0dp"
-        android:layout_marginLeft="20.0dp"
-        android:layout_marginBottom="5.5dp"
-        android:hint="@string/PutName" />
-    <EditText
+        android:layout_height="wrap_content">
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edtName"
+          android:layout_marginRight="20.0dp"
+          android:layout_marginLeft="20.0dp"
+          android:layout_marginBottom="4dp"
+          android:hint="@string/PutName" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtLastName"
-        android:layout_marginRight="20.0dp"
-        android:layout_marginLeft="20.0dp"
-        android:layout_marginBottom="5.5dp"
-        android:hint="@string/PutLastName" />
-    <EditText
+        android:layout_height="wrap_content">
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edtLastName"
+          android:layout_marginRight="20.0dp"
+          android:layout_marginLeft="20.0dp"
+          android:layout_marginBottom="4dp"
+          android:hint="@string/PutLastName" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtBirthDay"
-        android:layout_marginRight="20.0dp"
-        android:layout_marginLeft="20.0dp"
-        android:layout_marginBottom="5.5dp"
-        android:hint="@string/putBirthDay" />
-    <EditText
+        android:layout_height="wrap_content">
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edtBirthDay"
+          android:layout_marginRight="20.0dp"
+          android:layout_marginLeft="20.0dp"
+          android:layout_marginBottom="4dp"
+          android:hint="@string/putBirthDay" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtEmail"
-        android:layout_marginRight="20.0dp"
-        android:layout_marginLeft="20.0dp"
-        android:layout_marginBottom="5.5dp"
-        android:hint="@string/putEmail" />
-    <EditText
+        android:layout_height="wrap_content">
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edtEmail"
+          android:layout_marginRight="20.0dp"
+          android:layout_marginLeft="20.0dp"
+          android:layout_marginBottom="4dp"
+          android:hint="@string/putEmail" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtPassword"
-        android:layout_marginRight="20.0dp"
-        android:layout_marginLeft="20.0dp"
-        android:layout_marginBottom="5.5dp"
-        android:hint="@string/PutPassword" />
-    <EditText
+        android:layout_height="wrap_content">
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edtPassword"
+          android:layout_marginRight="20.0dp"
+          android:layout_marginLeft="20.0dp"
+          android:layout_marginBottom="4dp"
+          android:hint="@string/PutPassword" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtConfirmPassword"
-        android:layout_marginRight="20.0dp"
-        android:layout_marginLeft="20.0dp"
-        android:layout_marginBottom="32.5dp"
-        android:hint="@string/PutConfirmPassword" />
+        android:layout_height="wrap_content">
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edtConfirmPassword"
+          android:layout_marginRight="20.0dp"
+          android:layout_marginLeft="20.0dp"
+          android:layout_marginBottom="30.0dp"
+          android:hint="@string/PutConfirmPassword" />
+    </android.support.design.widget.TextInputLayout>
     <Button
         android:text="@string/BtnSignIn"
         android:layout_width="match_parent"
@@ -76,4 +103,5 @@
         android:id="@+id/btnSignIn"
         android:layout_marginLeft="45.5dp"
         android:layout_marginRight="45.5dp" />
+
 </LinearLayout>

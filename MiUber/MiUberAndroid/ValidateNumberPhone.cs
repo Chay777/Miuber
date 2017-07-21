@@ -9,11 +9,12 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Support.V7.App;
 
 namespace MiUberAndroid
 {
-    [Activity(Label = "ValidateNumberPhone")]
-    public class ValidateNumberPhone : Activity
+    [Activity(Label = "ValidateNumberPhone", Theme = "@style/Theme.AppCompat")]
+    public class ValidateNumberPhone : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
