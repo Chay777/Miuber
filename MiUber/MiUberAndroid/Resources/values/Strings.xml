@@ -33,4 +33,15 @@
   <string name="SendValidationCode">Enviar código de validación</string>
   <string name="ValidationCode">Código de validación</string>
   <string name="Next">Siguiente</string>
+
+  <!-- Navigation Menu-->
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+
+  <string name="Default">Inicio</string>
+  <string name="Profile">Perfil</string>
+  <string name="Record">Historial</string>
+  <string name="Logout">Cerrar sesión</string>
+  <string name="About">Acerca de</string>
+  <string name="GoogleMapKey">AIzaSyClvqR_wpAPNsgnNwfaA8StWdDcJKzQOLM</string>
 </resources>

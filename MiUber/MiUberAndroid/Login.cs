@@ -26,8 +26,12 @@ namespace MiUberAndroid
             SetContentView(Resource.Layout.Login);
             var txtForgotPassword = FindViewById<TextView>(Resource.Id.txtPasswordForgot);
             var txtSignIn = FindViewById<TextView>(Resource.Id.txtSignIn);
-
-           
+            var btnLogin = FindViewById<Button>(Resource.Id.btnLogIn);
+            btnLogin.Click += (sender, evt) =>
+            {
+                var intent = new Android.Content.Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
 
             txtForgotPassword.Click += (sender, evt) =>
             {
