@@ -2369,8 +2369,8 @@ namespace MiUberAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a009d
-			public const int action0 = 2131361949;
+			// aapt resource value: 0x7f0a00a4
+			public const int action0 = 2131361956;
 			
 			// aapt resource value: 0x7f0a006e
 			public const int action_bar = 2131361902;
@@ -2393,17 +2393,17 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a004b
 			public const int action_bar_title = 2131361867;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int action_container = 2131361946;
+			// aapt resource value: 0x7f0a00a1
+			public const int action_container = 2131361953;
 			
 			// aapt resource value: 0x7f0a006f
 			public const int action_context_bar = 2131361903;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int action_divider = 2131361953;
+			// aapt resource value: 0x7f0a00a8
+			public const int action_divider = 2131361960;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int action_image = 2131361947;
+			// aapt resource value: 0x7f0a00a2
+			public const int action_image = 2131361954;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -2420,11 +2420,11 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a004d
 			public const int action_mode_close_button = 2131361869;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int action_text = 2131361948;
+			// aapt resource value: 0x7f0a00a3
+			public const int action_text = 2131361955;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int actions = 2131361962;
+			// aapt resource value: 0x7f0a00b1
+			public const int actions = 2131361969;
 			
 			// aapt resource value: 0x7f0a004e
 			public const int activity_chooser_view_content = 2131361870;
@@ -2447,8 +2447,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a002e
 			public const int always = 2131361838;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int appbar = 2131361944;
+			// aapt resource value: 0x7f0a009f
+			public const int appbar = 2131361951;
 			
 			// aapt resource value: 0x7f0a0019
 			public const int auto = 2131361817;
@@ -2459,26 +2459,29 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0033
 			public const int bottom = 2131361843;
 			
+			// aapt resource value: 0x7f0a0096
+			public const int btnLogIn = 2131361942;
+			
+			// aapt resource value: 0x7f0a00c1
+			public const int btnNext = 2131361985;
+			
+			// aapt resource value: 0x7f0a00c0
+			public const int btnSendCode = 2131361984;
+			
+			// aapt resource value: 0x7f0a0091
+			public const int btnSendRecoveryEmail = 2131361937;
+			
+			// aapt resource value: 0x7f0a00be
+			public const int btnSignIn = 2131361982;
+			
 			// aapt resource value: 0x7f0a008f
-			public const int btnLogIn = 2131361935;
-			
-			// aapt resource value: 0x7f0a00ba
-			public const int btnNext = 2131361978;
-			
-			// aapt resource value: 0x7f0a00b9
-			public const int btnSendCode = 2131361977;
-			
-			// aapt resource value: 0x7f0a008a
-			public const int btnSendRecoveryEmail = 2131361930;
-			
-			// aapt resource value: 0x7f0a00b7
-			public const int btnSignIn = 2131361975;
+			public const int btnUpdate = 2131361935;
 			
 			// aapt resource value: 0x7f0a0055
 			public const int buttonPanel = 2131361877;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int cancel_action = 2131361950;
+			// aapt resource value: 0x7f0a00a5
+			public const int cancel_action = 2131361957;
 			
 			// aapt resource value: 0x7f0a003a
 			public const int center = 2131361850;
@@ -2492,8 +2495,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0065
 			public const int checkbox = 2131361893;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int chronometer = 2131361958;
+			// aapt resource value: 0x7f0a00ad
+			public const int chronometer = 2131361965;
 			
 			// aapt resource value: 0x7f0a0043
 			public const int clip_horizontal = 2131361859;
@@ -2540,41 +2543,53 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a001e
 			public const int disableHome = 2131361822;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int drawer_layout = 2131361937;
+			// aapt resource value: 0x7f0a0098
+			public const int drawer_layout = 2131361944;
 			
 			// aapt resource value: 0x7f0a0070
 			public const int edit_query = 2131361904;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int edtBirthDay = 2131361973;
+			// aapt resource value: 0x7f0a00bc
+			public const int edtBirthDay = 2131361980;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int edtConfirmPassword = 2131361974;
+			// aapt resource value: 0x7f0a00bd
+			public const int edtConfirmPassword = 2131361981;
+			
+			// aapt resource value: 0x7f0a008b
+			public const int edtEditBirthDay = 2131361931;
+			
+			// aapt resource value: 0x7f0a008a
+			public const int edtEditLastName = 2131361930;
 			
 			// aapt resource value: 0x7f0a008c
-			public const int edtEmail = 2131361932;
+			public const int edtEditMail = 2131361932;
 			
 			// aapt resource value: 0x7f0a0089
-			public const int edtEmaill = 2131361929;
+			public const int edtEditName = 2131361929;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int edtLastName = 2131361972;
+			// aapt resource value: 0x7f0a0093
+			public const int edtEmail = 2131361939;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int edtName = 2131361971;
+			// aapt resource value: 0x7f0a0090
+			public const int edtEmaill = 2131361936;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int edtNumberPhone = 2131361976;
+			// aapt resource value: 0x7f0a00bb
+			public const int edtLastName = 2131361979;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int edtPassword = 2131361933;
+			// aapt resource value: 0x7f0a00ba
+			public const int edtName = 2131361978;
+			
+			// aapt resource value: 0x7f0a00bf
+			public const int edtNumberPhone = 2131361983;
+			
+			// aapt resource value: 0x7f0a0094
+			public const int edtPassword = 2131361940;
 			
 			// aapt resource value: 0x7f0a002c
 			public const int end = 2131361836;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int end_padder = 2131361968;
+			// aapt resource value: 0x7f0a00b7
+			public const int end_padder = 2131361975;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int enterAlways = 2131361845;
@@ -2615,8 +2630,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0053
 			public const int icon = 2131361875;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int icon_group = 2131361963;
+			// aapt resource value: 0x7f0a00b2
+			public const int icon_group = 2131361970;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int icon_only = 2131361814;
@@ -2627,11 +2642,11 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0050
 			public const int image = 2131361872;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int imageView1 = 2131361941;
+			// aapt resource value: 0x7f0a009c
+			public const int imageView1 = 2131361948;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int info = 2131361959;
+			// aapt resource value: 0x7f0a00ae
+			public const int info = 2131361966;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int item_touch_helper_previous_elevation = 2131361792;
@@ -2645,14 +2660,14 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a001b
 			public const int light = 2131361819;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int line1 = 2131361964;
+			// aapt resource value: 0x7f0a00b3
+			public const int line1 = 2131361971;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int line3 = 2131361966;
+			// aapt resource value: 0x7f0a00b5
+			public const int line3 = 2131361973;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int linearLayout1 = 2131361940;
+			// aapt resource value: 0x7f0a009b
+			public const int linearLayout1 = 2131361947;
 			
 			// aapt resource value: 0x7f0a001c
 			public const int listMode = 2131361820;
@@ -2660,17 +2675,17 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0052
 			public const int list_item = 2131361874;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int main_content = 2131361943;
+			// aapt resource value: 0x7f0a009e
+			public const int main_content = 2131361950;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int map = 2131361939;
+			// aapt resource value: 0x7f0a009a
+			public const int map = 2131361946;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int masked = 2131361980;
+			// aapt resource value: 0x7f0a00c3
+			public const int masked = 2131361987;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int media_actions = 2131361952;
+			// aapt resource value: 0x7f0a00a7
+			public const int media_actions = 2131361959;
 			
 			// aapt resource value: 0x7f0a002d
 			public const int middle = 2131361837;
@@ -2681,17 +2696,17 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0025
 			public const int multiply = 2131361829;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int nav_Default = 2131361981;
+			// aapt resource value: 0x7f0a00c4
+			public const int nav_Default = 2131361988;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int nav_Profile = 2131361982;
+			// aapt resource value: 0x7f0a00c5
+			public const int nav_Profile = 2131361989;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int nav_history = 2131361983;
+			// aapt resource value: 0x7f0a00c6
+			public const int nav_history = 2131361990;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int nav_view = 2131361938;
+			// aapt resource value: 0x7f0a0099
+			public const int nav_view = 2131361945;
 			
 			// aapt resource value: 0x7f0a0083
 			public const int navigation_header_container = 2131361923;
@@ -2705,14 +2720,14 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0011
 			public const int normal = 2131361809;
 			
+			// aapt resource value: 0x7f0a00b0
+			public const int notification_background = 2131361968;
+			
+			// aapt resource value: 0x7f0a00aa
+			public const int notification_main_column = 2131361962;
+			
 			// aapt resource value: 0x7f0a00a9
-			public const int notification_background = 2131361961;
-			
-			// aapt resource value: 0x7f0a00a3
-			public const int notification_main_column = 2131361955;
-			
-			// aapt resource value: 0x7f0a00a2
-			public const int notification_main_column_container = 2131361954;
+			public const int notification_main_column_container = 2131361961;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int parallax = 2131361857;
@@ -2735,11 +2750,11 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a003f
 			public const int right = 2131361855;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int right_icon = 2131361960;
+			// aapt resource value: 0x7f0a00af
+			public const int right_icon = 2131361967;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int right_side = 2131361956;
+			// aapt resource value: 0x7f0a00ab
+			public const int right_side = 2131361963;
 			
 			// aapt resource value: 0x7f0a0012
 			public const int satellite = 2131361810;
@@ -2840,8 +2855,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0040
 			public const int start = 2131361856;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int status_bar_latest_event_content = 2131361951;
+			// aapt resource value: 0x7f0a00a6
+			public const int status_bar_latest_event_content = 2131361958;
 			
 			// aapt resource value: 0x7f0a0068
 			public const int submenuarrow = 2131361896;
@@ -2855,11 +2870,11 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0013
 			public const int terrain = 2131361811;
 			
-			// aapt resource value: 0x7f0a00af
-			public const int text = 2131361967;
+			// aapt resource value: 0x7f0a00b6
+			public const int text = 2131361974;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int text2 = 2131361965;
+			// aapt resource value: 0x7f0a00b4
+			public const int text2 = 2131361972;
 			
 			// aapt resource value: 0x7f0a005c
 			public const int textSpacerNoButtons = 2131361884;
@@ -2867,8 +2882,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a005b
 			public const int textSpacerNoTitle = 2131361883;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int textView1 = 2131361942;
+			// aapt resource value: 0x7f0a009d
+			public const int textView1 = 2131361949;
 			
 			// aapt resource value: 0x7f0a0088
 			public const int text_input_password_toggle = 2131361928;
@@ -2879,8 +2894,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a000d
 			public const int textinput_error = 2131361805;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int time = 2131361957;
+			// aapt resource value: 0x7f0a00ac
+			public const int time = 2131361964;
 			
 			// aapt resource value: 0x7f0a0054
 			public const int title = 2131361876;
@@ -2891,8 +2906,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a0061
 			public const int title_template = 2131361889;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int toolbar = 2131361945;
+			// aapt resource value: 0x7f0a00a0
+			public const int toolbar = 2131361952;
 			
 			// aapt resource value: 0x7f0a0034
 			public const int top = 2131361844;
@@ -2909,20 +2924,26 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a000b
 			public const int transition_scene_layoutid_cache = 2131361803;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int txtNumberPhone = 2131361970;
+			// aapt resource value: 0x7f0a008d
+			public const int txtChangeNumberPhone = 2131361933;
 			
 			// aapt resource value: 0x7f0a008e
-			public const int txtPasswordForgot = 2131361934;
+			public const int txtChangePassword = 2131361934;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int txtSignIn = 2131361936;
+			// aapt resource value: 0x7f0a00b9
+			public const int txtNumberPhone = 2131361977;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int txtThisPhone = 2131361969;
+			// aapt resource value: 0x7f0a0095
+			public const int txtPasswordForgot = 2131361941;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int txvInstructions = 2131361931;
+			// aapt resource value: 0x7f0a0097
+			public const int txtSignIn = 2131361943;
+			
+			// aapt resource value: 0x7f0a00b8
+			public const int txtThisPhone = 2131361976;
+			
+			// aapt resource value: 0x7f0a0092
+			public const int txvInstructions = 2131361938;
 			
 			// aapt resource value: 0x7f0a0009
 			public const int up = 2131361801;
@@ -2933,8 +2954,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0a000e
 			public const int view_offset_helper = 2131361806;
 			
-			// aapt resource value: 0x7f0a00bb
-			public const int visible = 2131361979;
+			// aapt resource value: 0x7f0a00c2
+			public const int visible = 2131361986;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int wide = 2131361816;
@@ -3125,82 +3146,85 @@ namespace MiUberAndroid
 			public const int design_text_input_password_icon = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int ForgotPassword = 2130903081;
+			public const int EditProfile = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int Login = 2130903082;
+			public const int ForgotPassword = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int Main = 2130903083;
+			public const int Login = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int NavigationHeader = 2130903084;
+			public const int Main = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int NavigationToolBar = 2130903085;
+			public const int NavigationHeader = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_action = 2130903086;
+			public const int NavigationToolBar = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_action_tombstone = 2130903087;
+			public const int notification_action = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_media_action = 2130903088;
+			public const int notification_action_tombstone = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_media_cancel_action = 2130903089;
+			public const int notification_media_action = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_template_big_media = 2130903090;
+			public const int notification_media_cancel_action = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_big_media_custom = 2130903091;
+			public const int notification_template_big_media = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_big_media_narrow = 2130903092;
+			public const int notification_template_big_media_custom = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media_narrow_custom = 2130903093;
+			public const int notification_template_big_media_narrow = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_custom_big = 2130903094;
+			public const int notification_template_big_media_narrow_custom = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_icon_group = 2130903095;
+			public const int notification_template_custom_big = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_lines_media = 2130903096;
+			public const int notification_template_icon_group = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_media = 2130903097;
+			public const int notification_template_lines_media = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_media_custom = 2130903098;
+			public const int notification_template_media = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_part_chronometer = 2130903099;
+			public const int notification_template_media_custom = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_part_time = 2130903100;
+			public const int notification_template_part_chronometer = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int select_dialog_item_material = 2130903101;
+			public const int notification_template_part_time = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_multichoice_material = 2130903102;
+			public const int select_dialog_item_material = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_singlechoice_material = 2130903103;
+			public const int select_dialog_multichoice_material = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int SignIn = 2130903104;
+			public const int select_dialog_singlechoice_material = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int support_simple_spinner_dropdown_item = 2130903105;
+			public const int SignIn = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int ValidateNumberPhone = 2130903106;
+			public const int support_simple_spinner_dropdown_item = 2130903106;
+			
+			// aapt resource value: 0x7f030043
+			public const int ValidateNumberPhone = 2130903107;
 			
 			static Layout()
 			{
@@ -3231,8 +3255,8 @@ namespace MiUberAndroid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070056
-			public const int About = 2131165270;
+			// aapt resource value: 0x7f070059
+			public const int About = 2131165273;
 			
 			// aapt resource value: 0x7f07003b
 			public const int ApplicationName = 2131165243;
@@ -3240,8 +3264,14 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f07004b
 			public const int BtnSignIn = 2131165259;
 			
-			// aapt resource value: 0x7f070052
-			public const int Default = 2131165266;
+			// aapt resource value: 0x7f070050
+			public const int ChangeNumberPhone = 2131165264;
+			
+			// aapt resource value: 0x7f070051
+			public const int ChangePassword = 2131165265;
+			
+			// aapt resource value: 0x7f070055
+			public const int Default = 2131165269;
 			
 			// aapt resource value: 0x7f07003c
 			public const int Email = 2131165244;
@@ -3249,8 +3279,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f070043
 			public const int EmailPlaceHolder = 2131165251;
 			
-			// aapt resource value: 0x7f070057
-			public const int GoogleMapKey = 2131165271;
+			// aapt resource value: 0x7f07005a
+			public const int GoogleMapKey = 2131165274;
 			
 			// aapt resource value: 0x7f07003a
 			public const int Hello = 2131165242;
@@ -3261,8 +3291,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f07003f
 			public const int LogIn = 2131165247;
 			
-			// aapt resource value: 0x7f070055
-			public const int Logout = 2131165269;
+			// aapt resource value: 0x7f070058
+			public const int Logout = 2131165272;
 			
 			// aapt resource value: 0x7f07004f
 			public const int Next = 2131165263;
@@ -3273,8 +3303,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f07003e
 			public const int PasswordForgot = 2131165246;
 			
-			// aapt resource value: 0x7f070053
-			public const int Profile = 2131165267;
+			// aapt resource value: 0x7f070056
+			public const int Profile = 2131165270;
 			
 			// aapt resource value: 0x7f07004a
 			public const int PutConfirmPassword = 2131165258;
@@ -3291,8 +3321,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f070049
 			public const int PutPassword = 2131165257;
 			
-			// aapt resource value: 0x7f070054
-			public const int Record = 2131165268;
+			// aapt resource value: 0x7f070057
+			public const int Record = 2131165271;
 			
 			// aapt resource value: 0x7f070041
 			public const int Send = 2131165249;
@@ -3302,6 +3332,9 @@ namespace MiUberAndroid
 			
 			// aapt resource value: 0x7f070040
 			public const int SignIn = 2131165248;
+			
+			// aapt resource value: 0x7f070052
+			public const int Update = 2131165266;
 			
 			// aapt resource value: 0x7f070044
 			public const int UserNumberPhone = 2131165252;
@@ -3462,11 +3495,11 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f070010
 			public const int common_signin_button_text_long = 2131165200;
 			
-			// aapt resource value: 0x7f070051
-			public const int drawer_close = 2131165265;
+			// aapt resource value: 0x7f070054
+			public const int drawer_close = 2131165268;
 			
-			// aapt resource value: 0x7f070050
-			public const int drawer_open = 2131165264;
+			// aapt resource value: 0x7f070053
+			public const int drawer_open = 2131165267;
 			
 			// aapt resource value: 0x7f070035
 			public const int password_toggle_content_description = 2131165237;
@@ -3508,38 +3541,38 @@ namespace MiUberAndroid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0b009b
-			public const int AlertDialog_AppCompat = 2131427483;
-			
-			// aapt resource value: 0x7f0b009c
-			public const int AlertDialog_AppCompat_Light = 2131427484;
-			
 			// aapt resource value: 0x7f0b009d
-			public const int Animation_AppCompat_Dialog = 2131427485;
+			public const int AlertDialog_AppCompat = 2131427485;
 			
 			// aapt resource value: 0x7f0b009e
-			public const int Animation_AppCompat_DropDownUp = 2131427486;
+			public const int AlertDialog_AppCompat_Light = 2131427486;
+			
+			// aapt resource value: 0x7f0b009f
+			public const int Animation_AppCompat_Dialog = 2131427487;
+			
+			// aapt resource value: 0x7f0b00a0
+			public const int Animation_AppCompat_DropDownUp = 2131427488;
 			
 			// aapt resource value: 0x7f0b015f
 			public const int Animation_Design_BottomSheetDialog = 2131427679;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int Base_AlertDialog_AppCompat = 2131427487;
-			
-			// aapt resource value: 0x7f0b00a0
-			public const int Base_AlertDialog_AppCompat_Light = 2131427488;
-			
 			// aapt resource value: 0x7f0b00a1
-			public const int Base_Animation_AppCompat_Dialog = 2131427489;
+			public const int Base_AlertDialog_AppCompat = 2131427489;
 			
 			// aapt resource value: 0x7f0b00a2
-			public const int Base_Animation_AppCompat_DropDownUp = 2131427490;
+			public const int Base_AlertDialog_AppCompat_Light = 2131427490;
 			
 			// aapt resource value: 0x7f0b00a3
-			public const int Base_DialogWindowTitle_AppCompat = 2131427491;
+			public const int Base_Animation_AppCompat_Dialog = 2131427491;
 			
 			// aapt resource value: 0x7f0b00a4
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131427492;
+			public const int Base_Animation_AppCompat_DropDownUp = 2131427492;
+			
+			// aapt resource value: 0x7f0b00a5
+			public const int Base_DialogWindowTitle_AppCompat = 2131427493;
+			
+			// aapt resource value: 0x7f0b00a6
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131427494;
 			
 			// aapt resource value: 0x7f0b003f
 			public const int Base_TextAppearance_AppCompat = 2131427391;
@@ -3595,8 +3628,8 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0b004c
 			public const int Base_TextAppearance_AppCompat_Menu = 2131427404;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131427493;
+			// aapt resource value: 0x7f0b00a7
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131427495;
 			
 			// aapt resource value: 0x7f0b004d
 			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131427405;
@@ -3646,11 +3679,11 @@ namespace MiUberAndroid
 			// aapt resource value: 0x7f0b0058
 			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131427416;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131427494;
+			// aapt resource value: 0x7f0b009b
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131427483;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131427495;
+			// aapt resource value: 0x7f0b009c
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131427484;
 			
 			// aapt resource value: 0x7f0b0095
 			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131427477;

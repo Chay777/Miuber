@@ -14,7 +14,6 @@
             android:id="@+id/edtEmail"
             android:layout_marginLeft="35.0dp"
             android:layout_marginRight="35.0dp"
-           
             android:layout_marginTop="40.0dp" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout

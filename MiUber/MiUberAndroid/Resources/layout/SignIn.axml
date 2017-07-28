@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edtBirthDay"
-             android:inputType="date"
+            android:inputType="date"
             android:layout_marginRight="20.0dp"
             android:layout_marginLeft="20.0dp"
             android:hint="@string/putBirthDay" />
@@ -63,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edtEmail"
-             android:inputType="textEmailAddress"
+            android:inputType="textEmailAddress"
             android:layout_marginRight="20.0dp"
             android:layout_marginLeft="20.0dp"
             android:hint="@string/putEmail" />

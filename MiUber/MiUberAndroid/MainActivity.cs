@@ -8,6 +8,7 @@ using Android.Support.Design.Widget;
 using Android.Gms.Maps;
 using System;
 using Android.Gms.Maps.Model;
+using Android.Views;
 
 namespace MiUberAndroid
 {  
@@ -47,6 +48,18 @@ namespace MiUberAndroid
         {
             navigationView.NavigationItemSelected += (sender, e) => {
                 e.MenuItem.SetChecked(true);
+
+                switch (e.MenuItem.ItemId)
+                {
+                    case Resource.Id.nav_Profile:
+                    var intent = new Android.Content.Intent(this, typeof(EditProfile));
+                    StartActivity(intent);
+
+
+                    break;
+
+                }
+
                 drawerLayout.CloseDrawers();
             };
         }
