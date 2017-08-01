@@ -34,6 +34,11 @@
   <string name="ValidationCode">Código de validación</string>
   <string name="Next">Siguiente</string>
 
+  <!--Edit password-->
+
+  <string name="OldPassoword">Contraseña antigua</string>
+  <string name="NewPassword">Contraseña nueva</string>
+  <string name="ConfirmNewPassword">Confirma contraseña</string>
   
   <!--Edit profile-->
 

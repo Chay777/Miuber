@@ -14,7 +14,7 @@ using AlertDialog = Android.Support.V7.App.AlertDialog;
 namespace MiUberAndroid
 {
 
-    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat")]
+    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Base.Theme.DesignDemo")]
 
 
 

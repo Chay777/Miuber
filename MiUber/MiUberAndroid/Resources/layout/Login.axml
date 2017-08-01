@@ -5,7 +5,8 @@
     android:layout_height="match_parent">
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dp">
         <EditText
             android:inputType="textEmailAddress"
             android:layout_width="match_parent"

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="100dp"
-    android:background="#0099ff"
+    android:background="#000000"
     android:padding="16dp"
     android:minWidth="25px"
     android:minHeight="25px">
@@ -12,15 +12,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="15dp"
+   
         android:id="@+id/linearLayout1">
         <ImageView
-            android:src="@drawable/profile"
+            android:src="@drawable/steve"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:id="@+id/imageView1"
             android:layout_marginLeft="0.0dp" />
         <TextView
             android:text="José Rosario"
+            android:textColor="#FFFFFF"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
