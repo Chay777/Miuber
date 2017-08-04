@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutTravelData"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:background="@layout/StyleBottom"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="64dp">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtSource"
+            android:inputType="textPersonName"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginLeft="10.0dp"
+            android:text="Jardin Principal" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtDestination"
+            android:inputType="textAutoComplete"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginLeft="10.0dp"
+            android:hint="Ingrese su destino" />
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:text="Cancelar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvCancelar"
+        android:layout_marginTop="20.0dp"
+        android:textSize="17dp"
+        android:gravity="center_horizontal"
+        android:textColor="#303f9f" />
+</LinearLayout>

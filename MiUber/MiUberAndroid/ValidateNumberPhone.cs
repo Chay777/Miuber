@@ -13,7 +13,7 @@ using Android.Support.V7.App;
 
 namespace MiUberAndroid
 {
-    [Activity(Label = "ValidateNumberPhone", Theme = "@style/Theme.AppCompat")]
+    [Activity(Label = "ValidateNumberPhone", Theme = "@style/Base.Theme.DesignDemo")]
     public class ValidateNumberPhone : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

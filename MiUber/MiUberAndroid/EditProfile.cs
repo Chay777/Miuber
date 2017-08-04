@@ -12,7 +12,7 @@ using Android.Widget;
 using Android.Support.V7.App;
 namespace MiUberAndroid
 {
-    [Activity(Label = "EditProfile", Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat")]
+    [Activity(Label = "EditProfile", Icon = "@drawable/icon", Theme = "@style/Base.Theme.DesignDemo")]
     public class EditProfile : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -36,7 +36,7 @@ namespace MiUberAndroid
 
             txtModificarTelefono.Click += (sender, evt) =>
             {
-                var intent = new Android.Content.Intent(this, typeof(ValidateNumberPhone));
+                var intent = new Android.Content.Intent(this, typeof(EditNumberPhone));
                 StartActivity(intent);
             };
 

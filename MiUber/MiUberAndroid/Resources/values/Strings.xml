@@ -42,7 +42,7 @@
   
   <!--Edit profile-->
 
-  <string name="ChangeNumberPhone">Cambiar telefono</string>
+  <string name="ChangeNumberPhone">Cambiar teléfono</string>
   <string name="ChangePassword">Cambiar contraseña</string>
   <string name="Update">Actualizar</string>
   <!-- Navigation Menu-->

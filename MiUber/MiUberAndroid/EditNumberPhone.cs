@@ -9,17 +9,16 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V7.App;
 
 namespace MiUberAndroid
 {
-    [Activity(Label = "@string/ApplicationName", Icon = "@drawable/icon", Theme = "@style/Base.Theme.DesignDemo")]
-    class ForgotPassword: AppCompatActivity
+    [Activity(Label = "EditNumberPhone", Theme = "@style/Base.Theme.DesignDemo")]
+    public class EditNumberPhone : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.ForgotPassword);
+            SetContentView(Resource.Layout.EditNumberPhone);
             // Create your application here
         }
     }

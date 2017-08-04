@@ -13,7 +13,7 @@ using Android.Support.V7.App;
 
 namespace MiUberAndroid
 {
-    [Activity(Label = "EditPassword", Theme = "@style/Theme.AppCompat")]
+    [Activity(Label = "EditPassword", Theme = "@style/Base.Theme.DesignDemo")]
     public class EditPassword : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

@@ -13,7 +13,7 @@ using Android.Support.V7.App;
 
 namespace MiUberAndroid
 {
-    [Activity(Label = "@string/ApplicationName",Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat")]
+    [Activity(Label = "@string/ApplicationName",Icon = "@drawable/icon", Theme = "@style/Base.Theme.DesignDemo")]
     public class SignIn : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

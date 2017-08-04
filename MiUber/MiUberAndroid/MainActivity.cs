@@ -12,6 +12,8 @@ using Android.Locations;
 using Plugin.Geolocator;
 using System;
 using Android.Runtime;
+using Android.Graphics;
+using Android.Widget;
 
 namespace MiUberAndroid
 {
@@ -24,7 +26,6 @@ namespace MiUberAndroid
         MarkerOptions marcaActual;
         GoogleMap _googleMap;
         LatLng latLng;
-     
         protected override void OnCreate(Bundle bundle)
         {
 
@@ -44,12 +45,28 @@ namespace MiUberAndroid
             navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.InflateHeaderView(Resource.Layout.NavigationHeader);
             setupDrawerContent(navigationView); //Calling Function
+            var bottomSheet = FindViewById<LinearLayout>(Resource.Id.layoutTravelData);
+            BottomSheetBehavior sheet = BottomSheetBehavior.From(bottomSheet);
+            sheet.Hideable = true;
+            sheet.State = BottomSheetBehavior.StateHidden;
+            var txtSearch = FindViewById<EditText>(Resource.Id.edtSearchDestination);
+            var txvCancelar = FindViewById<TextView>(Resource.Id.txvCancelar);
+            txtSearch.FocusChange += (sender, evt) =>
+            {
+                sheet.State=BottomSheetBehavior.StateExpanded;
 
+            };
 
-            GetCurrentPosition();
+            txvCancelar.Click += (NotificationPrioritySenders, evt) =>
+            {
+                sheet.State = BottomSheetBehavior.StateHidden;
+            };
+            
+            // GetCurrentPosition();
             MapFragment map = (MapFragment)FragmentManager.FindFragmentById<MapFragment>(Resource.Id.map);
             map.GetMapAsync(this);
 
+            
         }
 
         void setupDrawerContent(NavigationView navigationView)
@@ -86,29 +103,87 @@ namespace MiUberAndroid
         {
 
             _googleMap = googleMap;
-         
-            marcaActual = new MarkerOptions();
-            GetCurrentPosition();
-            marcaActual.SetPosition(latLng);
-            marcaActual.SetTitle("My position");
-            googleMap.AddMarker(marcaActual);
-            googleMap.UiSettings.ZoomControlsEnabled = true;
-            googleMap.UiSettings.CompassEnabled = true;
-            CameraUpdate center =
-             CameraUpdateFactory.NewLatLng(latLng);
-            CameraUpdate zoom = CameraUpdateFactory.ZoomIn();
+            // GetCurrentPosition();
+            setPosicionActual(_googleMap);
+            setConductoresActivos(_googleMap);
 
-            googleMap.MoveCamera(center);
-            googleMap.AnimateCamera(zoom);
+
+            CameraUpdate center =
+             CameraUpdateFactory.NewLatLng(new LatLng(20.5279612, -100.8112885));
+            // CameraUpdate zoom = CameraUpdateFactory.ZoomIn();
+            CameraUpdate zoom = CameraUpdateFactory.NewLatLngZoom(new LatLng(20.5279612, -100.8112885), 16);
+            _googleMap.MoveCamera(center);
+            _googleMap.AnimateCamera(zoom);
           
         
-            googleMap.UiSettings.MyLocationButtonEnabled = true;
-            googleMap.MyLocationEnabled = true;
-            
-        }
-   
+          //  _googleMap.UiSettings.MyLocationButtonEnabled = true;
+           // _googleMap.MyLocationEnabled = true;
 
-        
+            pintarRuta(googleMap);
+            mostrarMensaje("Bienvenido");
+        }
+        public void setPosicionActual(GoogleMap map)
+        {
+           MarkerOptions usuarioMarca = new MarkerOptions();
+            usuarioMarca.SetPosition(new LatLng(20.5279612, -100.8112885));
+            usuarioMarca.SetTitle("Mi posicion");
+            usuarioMarca.Draggable(true);
+            usuarioMarca.SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueBlue));
+            map.UiSettings.ZoomControlsEnabled = true;
+            map.UiSettings.CompassEnabled = true;
+          
+             map.AddMarker(usuarioMarca);
+        }
+        public void pintarRuta(GoogleMap map)
+        {
+            Polyline line = map.AddPolyline(new PolylineOptions()
+             .Add(new LatLng(20.5279612, -100.8112885), new LatLng(20.5466882, -100.8384814)));
+            line.Width = 3;
+            line.Color = Color.ParseColor("#303f9f");
+
+
+        }
+
+        public void mostrarMensaje(String mensaje)
+        {
+            var layout = FindViewById<LinearLayout>(Resource.Id.lytToolBar);
+
+            Snackbar
+          .Make(layout, mensaje, Snackbar.LengthLong)
+          .SetAction("Ok", (view) => { /*Undo message sending here.*/ })
+          .Show(); // Don’t forget to show!
+        }
+
+        public void setConductoresActivos(GoogleMap map)
+        {
+            
+            for (int i=0; i<10; i++)
+            {
+                LatLng lat;
+                if (i % 2 == 0)
+                {
+                    Random random = new Random();
+                    Double randomNumber = random.Next(0, i);
+                    lat = new LatLng(20.5279612 + randomNumber*.01, -100.811288 + randomNumber*.01);
+                }
+                else
+                {
+                    Random random = new Random();
+                    Double randomNumber = random.Next(0, i);
+                    lat = new LatLng(20.5279612 - randomNumber*.02, -100.811288 - randomNumber*.02);
+                }
+                marcaActual = new MarkerOptions();
+                marcaActual.SetPosition(lat);
+                marcaActual.SetTitle("Conductor "+i+1);
+              
+                map.UiSettings.ZoomControlsEnabled = true;
+                map.UiSettings.CompassEnabled = true;
+                marcaActual.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.car));
+                map.AddMarker(marcaActual);
+            }
+            
+
+        }
 
         public async void  GetCurrentPosition()
         {
@@ -125,7 +200,7 @@ namespace MiUberAndroid
 
 
                 marcaActual = new MarkerOptions();
-                GetCurrentPosition();
+               // GetCurrentPosition();
                 marcaActual.SetPosition(new LatLng(position.Latitude, position.Longitude));
                 marcaActual.SetTitle("My position");
                 _googleMap.AddMarker(marcaActual);
@@ -133,6 +208,7 @@ namespace MiUberAndroid
             };
             throw new NotImplementedException();
         }
+
 
         public void OnProviderDisabled(string provider)
         {

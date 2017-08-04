@@ -1,42 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/drawer_layout"
-        android:layout_height="match_parent"
-        android:layout_width="fill_parent"
-        android:fitsSystemWindows="true">
-        <LinearLayout
-            android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-            <include
-                layout="@layout/NavigationToolBar" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <EditText
-                android:id="@+id/edtSearch"
-                android:layout_marginTop="72.7dp"
-                android:layout_height="20.0dp"
-                android:layout_width="250dp"
-                android:textColor="#000000"
-                android:hint="¿A donde quieres ir?"
-                android:layout_gravity="center" />
-            <fragment
-                android:id="@+id/map"
-                class="com.google.android.gms.maps.MapFragment"
+            android:layout_width="fill_parent"
+            android:fitsSystemWindows="true">
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-        <android.support.design.widget.NavigationView
-            android:id="@+id/nav_view"
-            android:layout_height="match_parent"
-            android:layout_width="250dp"
-            android:layout_gravity="start"
-            android:fitsSystemWindows="true" />
-    </android.support.v4.widget.DrawerLayout>
-</RelativeLayout>
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/lytToolBar">
+                <include
+                    layout="@layout/NavigationToolBar" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/lytToolBar"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.MapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="65dp  "
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="8dp"
+                    app:contentPadding="10dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/edtSearchDestination"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:hint="¿A donde quieres ir?" />
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+            <android.support.design.widget.NavigationView
+                android:id="@+id/nav_view"
+                android:layout_height="match_parent"
+                android:layout_width="250dp"
+                android:layout_gravity="start"
+                android:fitsSystemWindows="true" />
+        </android.support.v4.widget.DrawerLayout>
+    </RelativeLayout>
+    <include
+        layout="@layout/TravelData" />
+   <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:src="@drawable/ic_navigation"
+        android:layout_marginTop="30.0dp"
+        app:fabSize="mini"
+        android:layout_marginRight="10.0dp"
+        app:backgroundTint="@color/PrimaryColor"/>
+</android.support.design.widget.CoordinatorLayout>

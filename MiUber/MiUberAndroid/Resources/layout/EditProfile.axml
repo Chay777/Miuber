@@ -5,7 +5,8 @@
     android:layout_height="match_parent">
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dp">
         <EditText
             android:inputType="textPersonName"
             android:layout_width="match_parent"
@@ -61,7 +62,7 @@
         android:id="@+id/txtChangeNumberPhone"
         android:gravity="center_horizontal"
         android:textSize="10pt"
-        android:textColor="@android:color/holo_blue_bright"
+        android:textColor="@color/PrimaryColor"
         android:inputType="text"
         android:layout_marginTop="30.0dp" />
     <TextView
@@ -74,7 +75,7 @@
         android:id="@+id/txtChangePassword"
         android:gravity="center_horizontal"
         android:textSize="10pt"
-        android:textColor="@android:color/holo_blue_bright"
+        android:textColor="@color/PrimaryColor"
         android:inputType="text"
         android:layout_marginTop="30.0dp" />
     <Button

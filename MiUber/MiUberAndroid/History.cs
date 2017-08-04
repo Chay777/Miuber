@@ -14,7 +14,7 @@ using Android.Support.V7.App;
 
 namespace MiUberAndroid
 {
-    [Activity(Label = "History", Theme = "@style/Theme.AppCompat")]
+    [Activity(Label = "History", Theme = "@style/Base.Theme.DesignDemo")]
     public class History : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
